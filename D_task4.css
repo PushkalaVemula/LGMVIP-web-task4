@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 500px;
+    width: 470px;
+    margin: auto;
+    background-color: #180b16;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    outline-style: outset;
+}
+
+.display-box {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f3ed;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 15px;
+    width: 98%;
+    height: 55%;
+    outline-style: dashed;
+}
+
+#btn {
+    background-color: #21515a;
+}
+
+input[type=button] {
+    font-family: Sans-serif;
+    background-color: #57f3eb;
+    color: black;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 6px;
+    height: 60%;
+    outline: solid;
+    font-size: 30px;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 5px 5px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+h1 {
+    font-size: 50px;
+    color: #0fa9f1;
+}
+
+.bg {
+    background-image: url("https://en.pimg.jp/078/282/395/1/78282395.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
